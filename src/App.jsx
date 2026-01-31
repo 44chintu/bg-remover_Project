@@ -107,9 +107,12 @@ function App() {
         {/* BOTTOM AD BELOW IMAGES */}
         <AdBlock />
 
-        <p className="footer">
-  © {new Date().getFullYear()} Background Remover
-</p>
+          <p className="footer">
+    © {new Date().getFullYear()} Background Remover •
+    <a href="/privacy.html"> Privacy</a> •
+    <a href="/terms.html"> Terms</a> •
+    <a href="/contact.html"> Contact</a>
+  </p>
 
 
       </div>
