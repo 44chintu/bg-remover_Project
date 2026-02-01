@@ -25,7 +25,9 @@ function App() {
 
         <h1>Free Background Remover</h1>
         <p className="subtitle">
-  100% Free. No signup. No upload. Runs locally in your browser.
+  Your images never leave your device. Remove backgrounds instantly.
+  <br></br>
+  <p>All processing happens locally in your browser — nothing is uploaded to any server.</p>
 </p>
 
 
