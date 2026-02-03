@@ -74,6 +74,35 @@ h1 {
   box-shadow: 0 10px 40px rgba(0,0,0,0.08);
 }
 
+.highlight-card {
+  border: 1px solid #e0e7ff;
+}
+
+.feature-grid,
+.benefits-grid,
+.faq-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  text-align: left;
+}
+
+.feature-grid p,
+.benefits-grid p,
+.faq-grid p {
+  color: #4b5563;
+  line-height: 1.6;
+  margin-top: 6px;
+}
+
+.steps {
+  margin: 12px auto 0;
+  padding-left: 20px;
+  text-align: left;
+  color: #4b5563;
+  line-height: 1.7;
+}
+
 /* ---------------- UPLOAD BOX ---------------- */
 
 .upload-box {
@@ -139,6 +168,13 @@ h3 {
   margin-bottom: 12px;
   font-size: 18px;
   font-weight: 700;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
   text-align: center;
 }
 
